@@ -22,8 +22,5 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
-    - name: zmk-driver-paw32xx
-      remote: MeowCatpawkittie
-      revision: main
   self:
     path: config
