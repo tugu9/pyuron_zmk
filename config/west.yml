@@ -8,11 +8,17 @@ manifest:
       url-base: https://github.com/caksoylar  
     - name: sekigon-gonnoc
       url-base: https://github.com/sekigon-gonnoc
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-helpers
+      remote: urob
+      revision: main
+
     - name: zmk-driver-paw3222
       remote: sekigon-gonnoc
       revision: main
